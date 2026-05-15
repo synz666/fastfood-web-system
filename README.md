@@ -53,6 +53,16 @@ npm run build
 npm run preview
 ```
 
+## Деплой на GitHub Pages
+
+Проєкт автоматично деплоється на GitHub Pages через GitHub Actions.
+
+Жива версія доступна за адресою: https://synz666.github.io/fastfood-web-system
+
+Для локального деплою потрібно:
+1. Зібрати проєкт: `npm run build`
+2. Зміст папки `dist` завантажити на хостинг
+
 ## Особливості демо-версії
 
 - backend не використовується
